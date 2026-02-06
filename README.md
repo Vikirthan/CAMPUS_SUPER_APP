@@ -1,4 +1,4 @@
-<img width="1916" height="838" alt="image" src="https://github.com/user-attachments/assets/f9e9eafe-7576-47b4-b585-393c4417fe4e" /># Nexus – Campus Super App (IIT Ropar)
+# Nexus – Campus Super App (IIT Ropar)
 
 
 Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlhmZPXxIc9Jw9 with files
@@ -10,6 +10,7 @@ Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlh
 
 This documentation is written as an **AI-independent project document** (no AI tool dependency for understanding), with **clear placeholders** for screenshots, links, and future enhancements, following hackathon documentation guidelines.
 
+<img width="1916" height="838" alt="image" src="https://github.com/user-attachments/assets/f9e9eafe-7576-47b4-b585-393c4417fe4e" />
 ---
 
 ## Objectives
