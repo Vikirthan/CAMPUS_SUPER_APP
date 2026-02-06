@@ -1,18 +1,25 @@
-# Welcome to your Lovable project
+
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://campussuperapp.lovable.app/login
+
+
+
+**Demo Credentials**
+
+- Student
+
+Student01 / 123456
+
+- Admin
+
+Admin01 / 123456
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -66,8 +73,23 @@ Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and 
 
 ## Can I connect a custom domain to my Lovable project?
 
+
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+
+
+**Images for Verification**
+
+
+<img width="1855" height="870" alt="image" src="https://github.com/user-attachments/assets/ec37f557-5258-4a1d-9434-1458bdb5f142" />
+
+<img width="1887" height="902" alt="image" src="https://github.com/user-attachments/assets/76c93e75-3024-4502-9f7f-a3002f3f8d0a" />
+
+
+<img width="1919" height="890" alt="image" src="https://github.com/user-attachments/assets/a90cc310-3e85-46f4-a012-91d40d672677" />
+
+
