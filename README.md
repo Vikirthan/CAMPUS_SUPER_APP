@@ -1,7 +1,8 @@
-# Nexus – Campus Super App (IIT Ropar)
+<img width="1916" height="838" alt="image" src="https://github.com/user-attachments/assets/f9e9eafe-7576-47b4-b585-393c4417fe4e" /># Nexus – Campus Super App (IIT Ropar)
 
 
-Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlhmZPXxIc9Jw9
+Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlhmZPXxIc9Jw9 with files
+
 
 ## Project Overview
 
@@ -40,7 +41,6 @@ This documentation is written as an **AI-independent project document** (no AI t
 * Gmail → Enquiry notifications
 * Google AI API → Intelligence layer
 
-📌 *Placeholder: System Architecture Diagram*
 
 ---
 
@@ -73,7 +73,8 @@ This documentation is written as an **AI-independent project document** (no AI t
   * Moderate content
   * View analytics
 
-📌 *Placeholder: Login Screen Screenshot*
+<img width="1913" height="890" alt="image" src="https://github.com/user-attachments/assets/3640ea93-6994-4f50-b5bb-54e2ddc9bf79" />
+
 
 ---
 
@@ -95,7 +96,6 @@ This workflow applies to:
 * Clubs & Community
 * Food Listings
 
-📌 *Placeholder: Verification Flow Diagram*
 
 ---
 
@@ -120,7 +120,6 @@ Each upload returns:
 * Success message
 * Stored file reference
 
-📌 *Placeholder: File Upload UI Screenshot*
 
 ---
 
@@ -138,8 +137,6 @@ All enquiry forms send structured emails to:
 * Message / Details
 * Timestamp
 * Source Module
-
-📌 *Placeholder: Sample Enquiry Email Screenshot*
 
 ---
 
@@ -165,7 +162,8 @@ All enquiry forms send structured emails to:
 * Weather widget
 * Emergency alerts
 
-📌 *Placeholder: Daily Pulse UI*
+<img width="1916" height="838" alt="image" src="https://github.com/user-attachments/assets/bd8ff91a-dd86-45b7-9f27-6a3fec9462d7" />
+
 
 ---
 
@@ -193,7 +191,12 @@ All enquiry forms send structured emails to:
 * Skills offered / wanted
 * AI moderation + admin approval
 
-📌 *Placeholder: Student Exchange Screens*
+📌<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/585ff9b3-ea5f-402c-b7f7-5a7f79311cb2" />
+
+<img width="1919" height="888" alt="image" src="https://github.com/user-attachments/assets/f0950e69-513f-4f98-8d4a-48d096721316" />
+
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/1c51ed93-e3a5-468b-8b9e-24102fb5eac8" />
+
 
 ---
 
@@ -210,7 +213,11 @@ All enquiry forms send structured emails to:
 * Google Maps API
 * Campus map with landmarks
 
-📌 *Placeholder: Explorer Module UI*
+<img width="1894" height="849" alt="image" src="https://github.com/user-attachments/assets/97579343-e342-4462-8687-c9847b7a8426" />
+
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/817e52e6-a615-4f54-9496-413ae8984ef3" />
+
+
 
 ---
 
@@ -221,7 +228,6 @@ All enquiry forms send structured emails to:
 * Enquiry via email
 * Admin verification mandatory
 
-📌 *Placeholder: Food Search Results UI*
 
 ---
 
@@ -243,7 +249,10 @@ All enquiry forms send structured emails to:
 * Study Planner
 * AI Study Assistant (DSA, OS, Math, Core Engg.)
 
-📌 *Placeholder: Academic Dashboard UI*
+<img width="1913" height="800" alt="image" src="https://github.com/user-attachments/assets/112f3f6c-3f33-41b4-9b39-122e402b5d1d" />
+
+<img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/2beb6699-9d9a-4b61-9038-15b95fb638f9" />
+
 
 ---
 
@@ -254,7 +263,8 @@ All enquiry forms send structured emails to:
 * Join forms via email
 * Admin verification required
 
-📌 *Placeholder: Club Page UI*
+📌<img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/7e23b556-fd74-4e55-b63f-e6ddd8c0bf57" />
+
 
 ---
 
@@ -271,7 +281,10 @@ All enquiry forms send structured emails to:
 * Detect abusive or inappropriate language
 * Block submission with alert message
 
-📌 *Placeholder: AI Moderation Alert*
+<img width="1911" height="847" alt="image" src="https://github.com/user-attachments/assets/10c1614a-8dd8-403b-a324-fe0de075cdcb" />
+
+<img width="1914" height="867" alt="image" src="https://github.com/user-attachments/assets/2acc9912-9161-4ad0-9585-e9e3989db8c6" />
+
 
 ---
 
@@ -282,7 +295,8 @@ All enquiry forms send structured emails to:
 * Post moderation controls
 * Content analytics
 
-📌 *Placeholder: Admin Dashboard Screenshot*
+<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/b52cf524-b183-4b21-bbfa-719ed0b127df" />
+
 
 ---
 
@@ -316,7 +330,7 @@ Fully responsive design
 
 **Nexus – Campus Super App** demonstrates an innovative, AI-powered, verified campus ecosystem aligned with AI Fusion Hackathon objectives. It balances usability, moderation, intelligence, and scalability while solving real campus problems.
 
-📌 *Placeholder: Final Deployed App Link*
+Link: https://campussuperapp.lovable.app/
 
 
 **Images for Verification**
