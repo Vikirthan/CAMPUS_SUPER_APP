@@ -2,95 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --background: 225 25% 97%;
+    --foreground: 230 25% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 230 25% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 230 25% 10%;
+    --primary: 245 75% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 225 20% 94%;
+    --secondary-foreground: 230 25% 10%;
+    --muted: 225 20% 94%;
+    --muted-foreground: 225 10% 50%;
+    --accent: 245 80% 95%;
+    --accent-foreground: 245 75% 57%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 225 15% 90%;
+    --input: 225 15% 90%;
+    --ring: 245 75% 57%;
+    --radius: 0.75rem;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --sidebar-background: 245 45% 12%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 245 75% 62%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 245 30% 20%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 245 25% 18%;
+    --sidebar-ring: 245 75% 62%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Pillar colors */
+    --pulse: 270 70% 60%;
+    --pulse-foreground: 0 0% 100%;
+    --exchange: 35 92% 55%;
+    --exchange-foreground: 35 92% 15%;
+    --explorer: 155 72% 40%;
+    --explorer-foreground: 0 0% 100%;
+    --academic: 215 90% 55%;
+    --academic-foreground: 0 0% 100%;
+    --clubs: 340 75% 55%;
+    --clubs-foreground: 0 0% 100%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --background: 230 25% 8%;
+    --foreground: 0 0% 95%;
+    --card: 230 25% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 230 25% 12%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 245 75% 62%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 230 20% 18%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 230 20% 18%;
+    --muted-foreground: 225 10% 55%;
+    --accent: 245 40% 20%;
+    --accent-foreground: 245 75% 75%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 230 20% 18%;
+    --input: 230 20% 18%;
+    --ring: 245 75% 62%;
+    --sidebar-background: 230 30% 6%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 245 75% 62%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 230 25% 14%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 230 25% 14%;
+    --sidebar-ring: 245 75% 62%;
   }
 }
 
@@ -98,8 +82,40 @@ All colors MUST be HSL.
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--muted-foreground) / 0.3); border-radius: 3px; }
+
+/* Glassmorphism */
+.glass {
+  background: hsl(var(--card) / 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border) / 0.5);
+}
+
+/* Gradient backgrounds */
+.gradient-primary { background: linear-gradient(135deg, hsl(var(--primary)), hsl(245 60% 45%)); }
+.gradient-pulse { background: linear-gradient(135deg, hsl(var(--pulse)), hsl(290 70% 50%)); }
+.gradient-exchange { background: linear-gradient(135deg, hsl(var(--exchange)), hsl(25 90% 50%)); }
+.gradient-explorer { background: linear-gradient(135deg, hsl(var(--explorer)), hsl(140 70% 35%)); }
+.gradient-academic { background: linear-gradient(135deg, hsl(var(--academic)), hsl(230 85% 45%)); }
+.gradient-clubs { background: linear-gradient(135deg, hsl(var(--clubs)), hsl(350 70% 45%)); }
+
+/* Pillar badge variants */
+.pillar-pulse { background: hsl(var(--pulse) / 0.12); color: hsl(var(--pulse)); }
+.pillar-exchange { background: hsl(var(--exchange) / 0.12); color: hsl(var(--exchange)); }
+.pillar-explorer { background: hsl(var(--explorer) / 0.12); color: hsl(var(--explorer)); }
+.pillar-academic { background: hsl(var(--academic) / 0.12); color: hsl(var(--academic)); }
+.pillar-clubs { background: hsl(var(--clubs) / 0.12); color: hsl(var(--clubs)); }
+
+/* Status badges */
+.status-unverified { background: hsl(35 92% 55% / 0.12); color: hsl(35 92% 40%); }
+.status-verified { background: hsl(155 72% 40% / 0.12); color: hsl(155 72% 35%); }
+.status-rejected { background: hsl(0 84% 60% / 0.12); color: hsl(0 84% 50%); }
