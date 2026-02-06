@@ -1,85 +1,322 @@
+# Nexus – Campus Super App (IIT Ropar)
 
 
-## Project info
+Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlhmZPXxIc9Jw9
 
-**URL**: https://campussuperapp.lovable.app/login
+## Project Overview
+
+**Nexus – Campus Super App** is a fully interactive, AI-powered, full-stack web platform designed as a unified digital ecosystem for IIT Ropar students, faculty, and administrators. The platform strictly adheres to the **AI Fusion Hackathon – Project Nexus Problem Statement**, integrating AI, verification workflows, and modular campus services into a single, scalable system.
+
+This documentation is written as an **AI-independent project document** (no AI tool dependency for understanding), with **clear placeholders** for screenshots, links, and future enhancements, following hackathon documentation guidelines.
+
+---
+
+## Objectives
+
+* Centralize campus utilities into one interactive platform
+* Enable verified, safe, and moderated student interaction
+* Leverage AI for summarization, academic assistance, and content moderation
+* Provide admins with full control and verification authority
+* Demonstrate practical, ethical, and effective use of AI
+
+---
+
+## System Architecture Overview
+
+**Frontend:**
+
+* React-style component-based architecture
+* Animated UI with responsive design
+* Role-based routing (Student / Admin)
+
+**Backend:**
+
+* Node.js + Express
+* REST APIs for posts, verification, uploads, and enquiries
+
+**External Services:**
+
+* Google Drive → File storage
+* Gmail → Enquiry notifications
+* Google AI API → Intelligence layer
+
+📌 *Placeholder: System Architecture Diagram*
+
+---
+
+## Authentication & User Roles
+
+### Login Method
+
+* Username + Password only (No email / OTP)
+* Dummy authentication handled at backend level
+
+### Student Login
+
+* **Username:** Student01
+* **Password:** 123456
+* Redirects to Student Dashboard
+* Permissions:
+
+  * Create posts (Unverified)
+  * View verified content
+  * Send enquiries
+
+### Admin Login
+
+* **Username:** Admin01
+* **Password:** 123456
+* Redirects to Admin Portal
+* Permissions:
+
+  * Approve / Reject all posts
+  * Moderate content
+  * View analytics
+
+📌 *Placeholder: Login Screen Screenshot*
+
+---
+
+## Global Post Verification Workflow
+
+1. Student creates content
+2. Post is stored as **Unverified**
+3. Status badge displayed
+4. Admin reviews in Admin Portal
+5. Admin Approves → Post becomes **Verified** and visible
+6. Admin Rejects → Post remains hidden
+
+This workflow applies to:
+
+* Lost & Found
+* Marketplace
+* Cab Pool
+* Skills
+* Clubs & Community
+* Food Listings
+
+📌 *Placeholder: Verification Flow Diagram*
+
+---
+
+## File Storage & Data Handling
+
+All uploads are handled via backend and stored in Google Drive:
 
 
 
-**Demo Credentials**
 
-- Student
+### File Categories
 
-Student01 / 123456
+* Assignments
+* Lost & Found
+* Marketplace
+* Food Listings
+* Clubs & Community
+* Others
 
-- Admin
+Each upload returns:
 
-Admin01 / 123456
+* Success message
+* Stored file reference
 
-## How can I edit this code?
+📌 *Placeholder: File Upload UI Screenshot*
 
-There are several ways of editing your application.
+---
 
+## Email & Enquiry Handling
 
-**Use your preferred IDE**
+All enquiry forms send structured emails to:
+📧 **[vikirthan06@gmail.com](mailto:vikirthan06@gmail.com)**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Included Fields
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Name
+* Registration Number
+* Mobile Number
+* Email ID
+* Message / Details
+* Timestamp
+* Source Module
 
-Follow these steps:
+📌 *Placeholder: Sample Enquiry Email Screenshot*
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Core Pillar 1: The Daily Pulse
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Live Mess Menu
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+* Tabs: Breakfast | Lunch | Snacks | Dinner
+* Veg / Non-veg filters
+* Nutrition placeholders
+* Ratings & popularity badges
 
-**Edit a file directly in GitHub**
+### AI Mail Summarizer
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* Paste institute emails
+* AI generates concise summaries
+* Categories: Academic | Events | Urgent
 
-**Use GitHub Codespaces**
+### Campus Feed
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Announcements
+* Event countdown timers
+* Weather widget
+* Emergency alerts
 
-## What technologies are used for this project?
+📌 *Placeholder: Daily Pulse UI*
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Core Pillar 2: The Student Exchange
 
-## How can I deploy this project?
+### Lost & Found
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* Post LOST / FOUND items
+* Image + description + location
+* Admin verification required
 
-## Can I connect a custom domain to my Lovable project?
+### Buy / Sell Marketplace
 
+* Product upload with image & price
+* Buyer interest via email
+* Interaction after verification
 
-Yes, you can!
+### Travel Sharing (Cab Pool)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Route, date, time, seats
+* Join via enquiry form
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Skill Exchange
 
+* Skills offered / wanted
+* AI moderation + admin approval
+
+📌 *Placeholder: Student Exchange Screens*
+
+---
+
+## Core Pillar 3: The Explorer’s Guide
+
+### Nearby Hub
+
+* Cafes, shops, hangouts
+* Real images
+* Ratings, distance, vibe tags
+
+### Navigate Smarter
+
+* Google Maps API
+* Campus map with landmarks
+
+📌 *Placeholder: Explorer Module UI*
+
+---
+
+## Food Search & Discovery Module
+
+* Search food items (Momos, Tea, etc.)
+* Display shops, prices, ratings, distance
+* Enquiry via email
+* Admin verification mandatory
+
+📌 *Placeholder: Food Search Results UI*
+
+---
+
+## Core Pillar 4: The Academic Cockpit
+
+### Live Timetable
+
+* Add / edit / delete classes
+* Day & week views
+
+### LMS Lite
+
+* Assignment upload
+* Google Drive storage
+* Submission confirmation
+
+### Academic Intelligence
+
+* Study Planner
+* AI Study Assistant (DSA, OS, Math, Core Engg.)
+
+📌 *Placeholder: Academic Dashboard UI*
+
+---
+
+## Clubs & Community Module
+
+* Club listings
+* Individual club pages
+* Join forms via email
+* Admin verification required
+
+📌 *Placeholder: Club Page UI*
+
+---
+
+## AI / ML Intelligence Layer
+
+**Google AI API Key Used**
+
+* AI Mail Summarizer
+* AI Study Assistant
+* AI Content Moderation
+
+### Content Moderation Rules
+
+* Detect abusive or inappropriate language
+* Block submission with alert message
+
+📌 *Placeholder: AI Moderation Alert*
+
+---
+
+## Admin Portal Features
+
+* Secure admin dashboard
+* Pending / Approved / Rejected counters
+* Post moderation controls
+* Content analytics
+
+📌 *Placeholder: Admin Dashboard Screenshot*
+
+---
+
+## UI / UX Design Principles
+
+* Highly interactive UI
+* Smooth animations
+* Color-coded pillars:
+
+  * Blue → Academics
+  * Orange → Exchange
+  * Green → Campus Life
+
+Fully responsive design
+
+---
+
+## Deliverables
+
+* Full frontend & backend system
+* Admin portal
+* Google Drive integration
+* Gmail-based enquiries
+* AI-powered features
+* GitHub repository
+* This documentation
+
+---
+
+## Conclusion
+
+**Nexus – Campus Super App** demonstrates an innovative, AI-powered, verified campus ecosystem aligned with AI Fusion Hackathon objectives. It balances usability, moderation, intelligence, and scalability while solving real campus problems.
+
+📌 *Placeholder: Final Deployed App Link*
 
 
 **Images for Verification**
