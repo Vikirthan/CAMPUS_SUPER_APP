@@ -4,6 +4,8 @@
 Video Explanation- https://drive.google.com/drive/folders/18y6TNM3oQoT8QghGI-qlhmZPXxIc9Jw9 with files
 
 
+Link- https://campussuperapp.lovable.app/login
+
 ## Project Overview
 
 **Nexus – Campus Super App** is a fully interactive, AI-powered, full-stack web platform designed as a unified digital ecosystem for IIT Ropar students, faculty, and administrators. The platform strictly adheres to the **AI Fusion Hackathon – Project Nexus Problem Statement**, integrating AI, verification workflows, and modular campus services into a single, scalable system.
